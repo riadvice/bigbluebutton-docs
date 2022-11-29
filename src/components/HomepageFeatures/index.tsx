@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
     {
         title: 'Teacher & Student',
-        Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+        Svg: require('@site/static/img/icon_teach.svg').default,
         description: (
             <>
                 Docusaurus was designed from the ground up to be easily installed and
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'I am a developer',
-        Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+        Svg: require('@site/static/img/icon_developer.svg').default,
         description: (
             <>
                 Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'I am an administrator',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/icon_administrator.svg').default,
         description: (
             <>
                 Extend or customize your website layout by reusing React. Docusaurus can
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Greenlight',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/icon_greenlight.svg').default,
         description: (
             <>
                 Extend or customize your website layout by reusing React. Docusaurus can
@@ -50,8 +50,8 @@ const FeatureList: FeatureItem[] = [
         ),
     },
     {
-        title: 'What&apos;s new?',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        title: 'What\'s new?',
+        Svg: require('@site/static/img/icon_new.svg').default,
         description: (
             <>
                 Extend or customize your website layout by reusing React. Docusaurus can
@@ -61,7 +61,7 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: 'Testing Guide',
-        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        Svg: require('@site/static/img/icon_testing.svg').default,
         description: (
             <>
                 Extend or customize your website layout by reusing React. Docusaurus can
