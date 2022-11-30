@@ -9,9 +9,11 @@ done
 git branch | sed -n 's/^.*v\(.*\).x-release/\1/p' \
   | while read -r version; do
 
-  echo "Adding documentation for $version"
-  git checkout "v${version}.x-release"
-  npm run docusaurus docs:version "${version}"
+  if [ -f docusaurus.config.js ]; then
+    echo "Adding documentation for $version"
+    git checkout "v${version}.x-release"
+    npm run docusaurus docs:version "${version}"
+  fi
 
 done
 
