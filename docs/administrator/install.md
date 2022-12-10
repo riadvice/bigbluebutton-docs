@@ -266,9 +266,9 @@ ii  bbb-webrtc-sfu            1:2.6-6    amd64        BigBlueButton WebRTC SFU
 
 ```
 
-With Greenlight installed (that was the `-g` option), you can open https://HOSTNAME/b in a browser (where HOSTNAME is the hostname you specified in the `bbb-install-2.6.sh` command), create a local account, create a room and join it.
+With Greenlight installed (that was the `-g` option), you can open `https://<HOSTNAME>/b` in a browser (where `<HOSTNAME>` is the hostname you specified in the `bbb-install-2.6.sh` command), create a local account, create a room and join it.
 
-<img src="/images/greenlight_welcome.png" alt="BigBlueButton's Greenlight Interface"/>
+<img src="/img/greenlight_welcome.png" alt="BigBlueButton's Greenlight Interface"/>
 
 You can integrate BigBlueButton with one of the 3rd party integrations by providing the integration of the server's address and shared secret. You can use `bbb-conf` to display this information using `bbb-conf --secret`.
 

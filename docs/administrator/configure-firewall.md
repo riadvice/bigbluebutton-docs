@@ -321,7 +321,8 @@ Detected the following WebRTC issue: Error 1002: Could not make a WebSocket conn
 
 For Error 1002, check IP address for `proxy_pass` in `/etc/bigbluebutton/nginx/sip.nginx` is pointing to the external IP address of the firewall. Next, check that FreeSWITCH has started without errors
 
-<pre><code># systemctl status freeswitch
+```
+# systemctl status freeswitch
 ● freeswitch.service - freeswitch
    Loaded: loaded (/lib/systemd/system/freeswitch.service; enabled; vendor preset: enabled)
    Active: <span style="color:#980000;font-weight:bold">active (running)</span> since Fri 2017-03-03 23:13:07 UTC; 48min ago
@@ -338,7 +339,7 @@ Mar 03 23:13:05 t4 freeswitch[19349]: 19361 Backgrounding.
 Mar 03 23:13:07 t4 freeswitch[19349]: FreeSWITCH[19349] Waiting for background process pid:19361 to be ready.....
 Mar 03 23:13:07 t4 freeswitch[19349]: FreeSWITCH[19349] System Ready pid:19361
 Mar 03 23:13:07 t4 systemd[1]: Started freeswitch.
-</code></pre>
+```
 
 You should see `active (running)`. If FreeSWITCH is not running, you can check it's output log for clues on why it's not running `journalctl -u freeswitch.service`. If you continue to see the Error 1002, check the diagnostic stops below, under [Configure a dummy NIC](#configure-a-dummy-nic-if-required).
 

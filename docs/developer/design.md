@@ -74,63 +74,57 @@ Below are designs for our first release for the web, tablet and mobile HTML5 cli
 
 With the first release of the HTML5 mobile Views, we've focused our efforts on building the viewer functionality. This includes, consuming the presentation, enabling/disabling your audio, emoji interactions, as well as the ability to participate in public/private chat conversations.
 
-<br/>
-<img src="/img/html5/bbb_mobile_default.png" width="225" alt="BigBlueButton Mobile Default View"/>
-<img src="/img/html5/bbb_mobile_participants_list.png" width="225" alt="BigBlueButton Mobile Participants List" />
-<img src="/img/html5/bbb_mobile_chat_public.png" width="225" alt="BigBlueButton Mobile Public Chat"/>
-<img src="/img/html5/bbb_mobile_polling.png" width="225" alt="BigBlueButton Mobile Polling" />
-
-<br/>
-
+![BigBlueButton Mobile Default View](/img/html5/bbb_mobile_default.png)
+![BigBlueButton Mobile Participants List](/img/html5/bbb_mobile_participants_list.png)
+![BigBlueButton Mobile Public Chat](/img/html5/bbb_mobile_chat_public.png)
+![BigBlueButton Mobile Polling](/img/html5/bbb_mobile_polling.png)
 ## Tablet Views
 
 The tablet views follow the same design pattern as the mobile phone.
 
-<br/>
-<img src="/img/html5/bbb_tablet_portrait.png" width="465" />
-<img src="/img/html5/bbb_tablet_portrait_sidebar.png" width="465" style="margin-left:20px;"/>
-<br/><br/>
-<br/><br/>
-<img src="/img/html5/bbb_tablet_landscape.png" width="465"/>
-<img src="/img/html5/bbb_tablet_landscape_sidebar.png" width="465" style="margin-left:20px;"/>
-<br/><br/>
+![](/img/html5/bbb_tablet_portrait.png)
+![](/img/html5/bbb_tablet_portrait_sidebar.png)
+
+
+![](/img/html5/bbb_tablet_landscape.png)
+![](/img/html5/bbb_tablet_landscape_sidebar.png)
 
 ## Desktop Views
 
 For the desktop experience, it's where we start to see more of the functionality become present to presenters and participants. Here you will see (as a presenter) the ability to upload slides, annotations, multi whiteboard and closed captioning.
 
-<br/>
-<img src="/img/html5/bbb-html5_default.png" />
-<center> Default View </center>
-<br/><br/>
 
-<img src="/img/html5/bbb-html5_default_expanded_sidebar.png" />
-<center> Expanded Sidebar View |  Public & direct messages and the list of participants. </center>
-<br/><br/>
+![](/img/html5/bbb-html5_default.png)
 
-<img src="/img/html5/bbb-html5_default_expanded.png" />
-<center> Full Expanded View |  Public and private chat. </center>
-<br/><br/>
+Default View
 
-<img src="/img/html5/bbb-html5_breakout_rooms.png" />
-<center> Breakout Rooms </center>
-<br/><br/>
+![](/img/html5/bbb-html5_default_expanded_sidebar.png)
 
-<img src="/img/html5/bbb-html5_upload.png" style="border:1px solid #ccc;" />
-<center> Uploading a presentation </center>
-<br/><br/>
+Expanded Sidebar View | Public & direct messages and the list of participants.
 
-<img src="/img/html5/bbb-html5_settings.png" style="border:1px solid #ccc;" />
-<center> User Settings </center>
-<br/><br/>
+![](/img/html5/bbb-html5_default_expanded.png)
 
-<img src="/img/html5/bbb-html5_close_caption.png" style="border:1px solid #ccc;" />
-<center> Closed Caption </center>
-<br/><br/>
+Full Expanded View | Public and private chat.
 
-<img src="/img/html5/bbb-html5_participant_types.png" style="border:1px solid #ccc;" />
-<center> Participant types</center>
-<br/><br/>
+![](/img/html5/bbb-html5_breakout_rooms.png)
+
+Breakout Rooms
+
+![](/img/html5/bbb-html5_upload.png)
+
+Uploading a presentation
+
+![](/img/html5/bbb-html5_settings.png)
+
+User Settings
+
+![](/img/html5/bbb-html5_close_caption.png)
+
+Closed Caption
+
+![](/img/html5/bbb-html5_participant_types.png)
+
+Participant types
 
 **Presenter**: As shown above, the blue square in the top left-hand corner of the avatar indicates that the participant is the presenter. Located in the bottom right-hand corner is the join audio indicator (audio icon + green circle) and the ring around the avatar visually represents that someone is speaking.
 
@@ -138,77 +132,66 @@ For the desktop experience, it's where we start to see more of the functionality
 
 **Participant**: Participates are visually indicated using a circle avatar, and In the case displayed above, this participant has selected to join the audio listen only (headset icon + green circle).
 
-<br/><br/>
-
 ## Style Guide
 
 ### Overview
 
 In the style guide displayed below, you will find a breakdown of the core colour palette, typography and elements styles used in the HTML5 client.
 
-<img src="/img/html5/bbb_style_guide.png" style="border:1px solid #ccc;" />
+![](/img/html5/bbb_style_guide.png)
 
 ### Accessible Colour Palette
 
 As a team, we're passionate about maintaining accessibility best practices within our products, and in the case of colour, we want to make sure all types of users (visually impaired or not) have a pleasant experience. Below you'll find a detailed overview of our core colour palette and their contrast ratio. Our goal was to maintain a ratio of 4.5:1 an above.
-<img src="/img/html5/bbb_colour_palette.png" />
-<br/>
+![](/img/html5/bbb_colour_palette.png)
 
 ### Custom Icon Library
 
 With the new HTML5 client, we wanted to include a shareable icon library that developers could use during development and have created our own custom icon library with over 80+ icons.
-<br/><br/>
-<img src="/img/html5/bbb_icons.png" style="border:1px solid #ccc;" />
-<br/><br/><br/>
+![](/img/html5/bbb_icons.png)
 
 # Client Designs | Planned Updates
 
 ### Desktop Sharing
 
 When a presenter chooses to share their desktop, it will replace the existing presentation area. At any time, the presenter can end their desk share, and the presentation will resume in its original location.
-<img src="/img/html5/bbb-html5_deskshare.png" />
+![](/img/html5/bbb-html5_deskshare.png)
 
 ### Expanding the presentation controls
 
 Updated presentation controls to be included are, zoom, fit to width and fit to page.
-<img src="/img/html5/bbb_default.png" />
+![](/img/html5/bbb_default.png)
 
 ### Audio dialog with echo test
 
 When a user joins a session, a dialogue box will appear signifying which auto route they can take, joining audio using a microphone or listen only (similar to the flash experience). If they select join via a microphone, a user will be prompted with another step asking if they can hear themselves (echo test). From there, if selected "Yes", then they will advance into the session.
 
-<img src="/img/html5/bbb-html5_audio_dialogue.png" />
-
-<br/>
-<br/>
+![](/img/html5/bbb-html5_audio_dialogue.png)
 
 ## Client Designs | Roadmap Features
 
 ### Video Sharing
 
-<img src="/img/html5/bbb-html5_video_dock.png" />
-<br/><br/>
-<br/><br/>
+![](/img/html5/bbb-html5_video_dock.png)
+
 
 ### Shared Notes
 
-<img src="/img/html5/bbb_multiple_shared_notes.png" />
-<br/><br/>
-<img src="/img/html5/bbb_mobile_participants_list_notes.png"  width="350"/>
-<img src="/img/html5/bbb_mobile_notes.png" width="350" />
-<hr/>
+![](/img/html5/bbb_multiple_shared_notes.png)
+
+![](/img/html5/bbb_mobile_participants_list_notes.png)
+![](/img/html5/bbb_mobile_notes.png)
 
 ### Multiple Chat Rooms
 
-<img src="/img/html5/bbb_multiple_chat_pods.png" />
-<br/><br/>
-<img src="/img/html5/bbb_mobile_participants_list_chat.png" width="350" />
-<img src="/img/html5/bbb_mobile_chat_public.png"  width="350"/>
+![](/img/html5/bbb_multiple_chat_pods.png)
+
+![](/img/html5/bbb_mobile_participants_list_chat.png)
+![](/img/html5/bbb_mobile_chat_public.png)
 
 ### User Management
 
-<img src="/img/html5/bbb-html5_user_management.png" />
-<br/><br/><br/><br/>
+![](/img/html5/bbb-html5_user_management.png)
 
 <hr/>
 

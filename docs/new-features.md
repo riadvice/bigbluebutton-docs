@@ -6,9 +6,7 @@ date: 2021-06-09 11:42:28
 order: 1
 ---
 
-<p align="center">
-  <img src="/images/26_BBB_header.png" alt="BigBlueButton 2.6 runs on Ubuntu 20.04"/>
-</p><br/>
+![BigBlueButton 2.6 runs on Ubuntu 20.04](/img/26_BBB_header.png)
 
 # Overview
 
@@ -30,26 +28,22 @@ Here's a breakdown of what's new in 2.6.
 
 BigBlueButton supports dark theme. To enable it just navigate to the Settings.
 
-<img src="/images/26-dark-theme-setting.png" alt="The toggle for dark theme is located in the main settings panel" style="max-width: 60%; height: auto;"/>
-<br /><br />
+![The toggle for dark theme is located in the main settings panel](/img/26-dark-theme-setting.png)
 
-<img src="/images/26-dark-theme-in-action.png" alt="Dark theme in action - typically pale elements like the participants list are displayed in dark palette" style="max-width: 60%; height: auto;"/>
-<br /><br />
+![Dark theme in action - typically pale elements like the participants list are displayed in dark palette](/img/26-dark-theme-in-action.png)
 
 ### Improved Echo Test dialog
 The echo test modal has added a new audio stream volume indicator in place of the
 separate confirmation screen. This reduced the number of views and interactions required for audio confirmation.
-<img src="/images/26-echo-test.png" alt="Updated echo test modal with added " style="max-width: 60%; height: auto;"/>
+![Updated echo test modal with added ](/img/26-echo-test.png)
 
 ### Improved notification of recording start
 
 The indicator for whether the recording is on has been made bigger. Additionally if you create your meeting with an optional parameter `notifyRecordingIsOn=true`, you users will see the following dialog when the recording commenses and also when joining a session that is already actively being recorded. You can choose to either continue or leave the session.
 
-<img src="/images/26-recording-indicator.png" alt="A big red square used as a recording indicator, used to be more subtle" style="max-width: 60%; height: auto;"/>
-<br /><br />
+![A big red square used as a recording indicator, used to be more subtle](/img/26-recording-indicator.png)
 
-<img src="/images/26-recording-popup.png" alt="A blocking dialog shows up if the session is being recorded" style="max-width: 60%; height: auto;"/>
-<br /><br />
+![A blocking dialog shows up if the session is being recorded](/img/26-recording-popup.png)
 
 ### Allow pinning of more than one webcam
 
@@ -57,14 +51,14 @@ The pinning feature prevents the webcams from being rotated out when audio floor
 This functionality is specially important for document and/or interpreter cameras. It has also been improved
 to support miltiple pinned cameras.
 
-<img src="/images/26-cam-pin.gif" alt="Animation selecting webcam dropdown menu and pin option item" style="max-width: 60%; height: auto;"/>
+![Animation selecting webcam dropdown menu and pin option item](/img/26-cam-pin.gif)
 
 ### Upload your own webcam background
 
 This new feature allows a user to upload virtual background image's for their webcam. The user can upload
 and delete images at will.
 
-<img src="/images/26-bg-upload.gif" alt="Animation of user uploading webcam custom background image" style="max-width: 60%; height: auto;"/>
+![Animation of user uploading webcam custom background image](/img/26-bg-upload.gif)
 
 ### Set webcam image brightness
 
@@ -72,27 +66,27 @@ Allows the ability to adjust the brightness levels of their webcam (or) webcam a
 
 This is done via the webcam settings modal using the brightness slider at the bottom.
 
-<img src="/images/26-webcam-brightness.gif" alt="Animation of webcam brightness slider interaction" style="max-width: 60%; height: auto;"/>
+![Animation of webcam brightness slider interaction](/img/26-webcam-brightness.gif)
 
 ### Improved layouts manager selection
 
 Layout selection can now be done via the updated layout selection modal located in the actions (+) button.
 
-<img src="/images/26layout-selection.gif" alt="Animation selecting actions button and layout selection item" style="max-width: 60%; height: auto;"/>
+![Animation selecting actions button and layout selection item](/img/26layout-selection.gif)
 
 ### Live Automatic Closed Captions
 
 Note: The automatic transcription is only available for browsers that support SpeechRecognition (Google Chrome, MS Edge and Safari). So those who join a meeting using other browsers will see a warning in the audio modal.
 
-<img src="/images/26-no-voice-rec.png" alt="audio modal with speech recognition error" style="max-width: 60%; height: auto;"/>
+![audio modal with speech recognition error](/img/26-no-voice-rec.png)
 
 By default, automatic transcription language selector is disabled. This can be changed in the settings file.  Users who want to have their voices transcribed must enable it by selecting the desired language from the drop-down selector in the join audio dialog.
 
-<img src="/images/26-auto-transcription.png" alt="audio modal with automatic transcription dropdown" style="max-width: 60%; height: auto;"/>
+![audio modal with automatic transcription dropdown](/img/26-auto-transcription.png)
 
 When the user selects a language for automatic transcription, BigBlueButton will display a CC icon next to their name in the "who is talking" indicator.
 
-<img src="/images/26-cc-talking-indicator.png" alt="Talking indicator with closed caption icon" style="max-width: 60%; height: auto;"/>
+![Talking indicator with closed caption icon](/img/26-cc-talking-indicator.png)
 
 When one or more users have enabled transcription, BigBlueButton will display a 'CC' button to display the transcriptions. You don't need to have selected transcription of your audio to view the transcriptions for others.
 
@@ -101,11 +95,11 @@ To view the transcriptions for those with 'CC' in their "who is talking" icon, s
 The placement of the 'CC' button depends on your device.  For desktop, the 'CC' button is in the bottom left.
 
 
-  <img src="/images/26-cc-desktop-btn.png" alt="closed captions button on action bar" style="max-width: 60%; height: auto;"/>
+![closed captions button on action bar](/img/26-cc-desktop-btn.png)
 
 For mobile devices, The 'CC' button is in the three dots at the top right corner.
 
-  <img src="/images/26-cc-mobile-btn.png" alt="closed captions button on mobile in app options menu" style="max-width: 60%; height: auto;"/>
+![closed captions button on mobile in app options menu](/img/26-cc-mobile-btn.png)
 
 To enable the option for automatic translations for users of Google Chrome, Microsoft Edge, and Safari, edit the `/etc/bigbluebutton/bbb-html5.yml` and add the following to the `public:` section and restart BigBlueButton.
 
@@ -121,7 +115,7 @@ public:
 Teachers can now export their slide decks with the annotations added during a lesson.
 Selecting "Send to chat" in the presentation upload modal sends a link in the public chat from which meeting participants can download the file.
 
-<img src="/images/26-send-to-chat.png" alt="BigBlueButton's upload modal with a button to export the presentation with annotations" style="max-width: auto; height: auto;"/>
+![BigBlueButton's upload modal with a button to export the presentation with annotations](/img/26-send-to-chat.png)
 
 ### Upload a presentation straight from NextCloud
 
@@ -129,22 +123,21 @@ Two new create parameters: uploadExternalDescription and uploadExternalUrl have 
 
 The client supports these parameters, displaying a message in the presentation upload modal when both values are set at meeting creation.
 
-<img src="/images/26-next-cloud.png" alt="Upload presentation modal with next cloud message" style="max-width: auto; height: auto;"/>
+![Upload presentation modal with next cloud message](/img/26-next-cloud.png)
 
 ### Easier moving of users between breakout rooms
 
 There is a new option for the breakout room controls called Manage users.
 
-<img src="/images/26-manage-users.png" alt="Manage users" style="max-width: auto; height: auto;"/>
+![Manage users](/img/26-manage-users.png)
 
 This dialog lets you drag-and-drop users between different breakout rooms.
 
-
-<img src="/images/26-move-user.gif" alt="Move users dialog" style="max-width: auto; height: auto;"/>
+![Move users dialog](/img/26-move-user.gif)
 
 When you click Apply, BigBlueButton well send prompts to each user to move them to the target breakout room.
 
-<img src="/images/26-move-prompt.png" alt="Move users prompt" style="max-width: auto; height: auto;"/>
+![Move users prompt](/img/26-move-prompt.png)
 
 ### Recording in MP4 format
 
@@ -158,13 +151,13 @@ The whiteboard has been updated with TLdraw, a small application which supports 
 
 For more details see <https://github.com/tldraw/tldraw>.
 
-<img src="/images/26-tldraw.png" alt="BigBlueButton whiteboard using tldraw" style="max-width: auto; height: auto;"/>
+![BigBlueButton whiteboard using tldraw](/img/26-tldraw.png)
 
 ### Exporting Shared notes to the whiteboard
 
 Instructors can move the shared notes to the whiteboard presentation area for further collaborative work among students.
 
-<img src="/images/26-shared-notes-import.png" alt="BigBlueButton's whiteboard with annotations, with imported shared notes as the presentation" style="max-width: auto; height: auto;"/>
+![BigBlueButton's whiteboard with annotations, with imported shared notes as the presentation](/img/26-shared-notes-import.png)
 
 ### Exporting breakout rooms' shared notes as a presentation to the main room
 
@@ -174,7 +167,7 @@ Instructors can move the shared notes to the whiteboard presentation area for fu
 
 Polling has been updated to allow for polls when prepared in advance using the custom input option.
 
-<img src="/images/26-custom-poll.gif" alt="Animation of user opening poll panel and toggle custom input" style="max-width: auto; height: auto;"/>
+![Animation of user opening poll panel and toggle custom input](/img/26-custom-poll.gif)
 
 ## Analytics
 

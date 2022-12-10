@@ -65,7 +65,7 @@ $ sudo apt-get update
 $ sudo apt-get install certbot
 ```
 
-You can then run a `certbot` command like the following to generate the certificate, replacing `<turn.example.com/>` with the domain name of your TURN server:
+You can then run a `certbot` command like the following to generate the certificate, replacing `<turn.example.com>` with the domain name of your TURN server:
 
 ```bash
 $ sudo certbot certonly --standalone --preferred-challenges http \
@@ -79,7 +79,7 @@ Current versions of the certbot command set up automatic renewal by default. To 
 $ sudo mkdir -p /etc/letsencrypt/renewal-hooks/deploy
 ```
 
-Next, create the file `/etc/letsencrypt/renewal-hooks/deploy/coturn` with the following contents. Replace <turn.example.com/> with the hostname of your TURN server.
+Next, create the file `/etc/letsencrypt/renewal-hooks/deploy/coturn` with the following contents. Replace `<turn.example.com>` with the hostname of your TURN server.
 
 ```
 #!/bin/bash -e
@@ -248,7 +248,7 @@ Ensure that the `coturn` has binded to port 443 with `netstat -antp | grep 443`.
 
 You must configure bbb-web so that it will provide the list of turn servers to the web browser. Edit the file `/usr/share/bbb-web/WEB-INF/classes/spring/turn-stun-servers.xml` using the contents below and make edits:
 
-- replace both instances of `<turn.example.com/>` with the hostname of the TURN server, and
+- replace both instances of `<turn.example.com>` with the hostname of the TURN server, and
 - replace `<secret_value>` with the secret you configured in `turnserver.conf`.
 
 ```xml
@@ -336,7 +336,7 @@ Nat filtering: Endpoint Independent Filtering
 
 If you get an error, check that `coturn` is running on the TURN server using `systemctl status coturn.service`. Check the logs by doing `tail -f /var/log/turnserver/coturn.log`. You can get verbose logs by adding `verbose` to `/etc/turnserver.conf` and restarting the TURN server `systemctl restart coturn.service`
 
-You can test your TURN server using the [trickle ICE](https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/) page. This gives you a log of the relay candidates as they are returned from ICE gathering. To test using this page, you need to generate some test credentials. Run the following BASH script and substitute `<turn.example.com/>` with the hostname of your TURN server and `<secret_value>` with the password for your TURN server.
+You can test your TURN server using the [trickle ICE](https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/) page. This gives you a log of the relay candidates as they are returned from ICE gathering. To test using this page, you need to generate some test credentials. Run the following BASH script and substitute `<turn.example.com>` with the hostname of your TURN server and `<secret_value>` with the password for your TURN server.
 
 ```bash
 #!/bin/bash
