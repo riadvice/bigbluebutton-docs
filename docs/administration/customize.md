@@ -1,11 +1,11 @@
 ---
-layout: page
-title: 'Customize'
-category: admin
-redirect_from:
-  - /admin/client-configuration.html
-date: 2019-02-14 22:13:42
-order: 3
+id: customize
+slug: /administration/customize
+title: BigBlueButton Server Customization
+sidebar_position: 5
+description: BigBlueButton Configuration Customization
+keywords:
+- customization
 ---
 
 BigBlueButton has many configuration files that offer you opportunities to customize your installation. This document covers common customizations of BigBlueButton 2.2.

@@ -1,8 +1,11 @@
 ---
-layout: page
-title: "WebHooks"
-category: "dev"
-date: 2015-04-05 11:42:28
+id: webhooks
+slug: /development/webhooks
+title: BigBlueButton Webhooks
+sidebar_position: 6
+description: BigBlueButton Webhooks
+keywords:
+- webhooks
 ---
 
 This is a node.js application that listens for all events on BigBlueButton and sends POST requests

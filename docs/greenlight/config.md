@@ -1,10 +1,12 @@
 ---
-layout: page
-title: "Configure"
-category: greenlight
-redirect_from:
-  - /greenlight/gl-configure.html
-date: 2019-04-16 16:26:25
+id: config
+slug: /greenlight/config
+title: Greenlight Configuration
+sidebar_position: 3
+description: Greenlight Configuration
+keywords:
+- greenlight
+- configuration
 ---
 
 # Configuring Greenlight 2.0

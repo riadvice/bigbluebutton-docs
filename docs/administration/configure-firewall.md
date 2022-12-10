@@ -1,10 +1,12 @@
 ---
-layout: page
-title: 'Configure Firewall'
-category: admin
-#redirect_from: "/2.0/20install.html"
-date: 2019-02-14 22:13:42
-order: 5
+id: configure-firewall
+slug: /administration/firewall-configuration
+title: BigBlueButton Firewall Configuration
+sidebar_position: 4
+description: BigBlueButton Firewall Configuration
+keywords:
+- configuration
+- firewall
 ---
 
 This document covers firewall configuration for BigBlueButton 2.2.

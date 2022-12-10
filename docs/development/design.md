@@ -1,9 +1,13 @@
 ---
-layout: page
-title: 'Design'
-category: dev
-date: 2016-05-13 17:34:41
-order: 7
+id: design
+slug: /development/design
+title: BigBlueButton Development Design Guide
+sidebar_position: 2
+description: BigBlueButton Design Guide
+keywords:
+- development
+- design
+- architecture
 ---
 
 ---

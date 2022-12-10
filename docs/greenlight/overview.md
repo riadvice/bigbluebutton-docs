@@ -1,10 +1,11 @@
 ---
-layout: page
-title: "Overview"
-category: greenlight
-redirect_from:
-  - /install/greenlight-v2.html
-date: 2019-04-16 16:29:25
+id: overview
+slug: /greenlight/overview
+title: Greenlight Overview
+sidebar_position: 1
+description: Greenlight Overview
+keywords:
+- greenlight
 ---
 
 Greenlight 2.0 (referred hereafter as simply "Greenlight") is a Ruby on Rails application that provides a simple interface for users to create rooms, start meetings, and manage recordings.

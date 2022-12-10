@@ -1,8 +1,13 @@
 ---
-layout: page
-title: 'FAQ'
-category: support
-date: 2015-04-05 10:42:36
+id: teaching-faq
+slug: /teaching/faq
+title: Teacher & Student FAQ
+sidebar_position: 3
+description: FAQ for Student & Teacher
+keywords:
+- faq
+- teacher
+- student
 ---
 
 # Welcome

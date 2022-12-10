@@ -8,6 +8,7 @@ type FeatureItem = {
     Svg: React.ComponentType<React.ComponentProps<'svg'>>;
     description: JSX.Element;
     actionText: string;
+    docId: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -20,7 +21,8 @@ const FeatureList: FeatureItem[] = [
                 The complete user-guide with all the available features.
             </>
         ),
-        actionText: "Teaching Experience"
+        actionText: "Teaching Experience",
+        docId: "/teaching"
     },
     {
         title: 'I am a developer',
@@ -31,7 +33,8 @@ const FeatureList: FeatureItem[] = [
                 and creating new integrations using the API.
             </>
         ),
-        actionText: "Show me how"
+        actionText: "Show me how",
+        docId: "/development/guide"
     },
     {
         title: 'I am an administrator',
@@ -42,7 +45,8 @@ const FeatureList: FeatureItem[] = [
                 get BigBlueButton up an running.
             </>
         ),
-        actionText: "Server management"
+        actionText: "Server management",
+        docId: "/administrator/install"
     },
     {
         title: 'Greenlight',
@@ -53,7 +57,8 @@ const FeatureList: FeatureItem[] = [
                 the simple room manager tailored for BigBlueButton.
             </>
         ),
-        actionText: "Greenlight guide"
+        actionText: "Greenlight guide",
+        docId: "/greenlight/overview"
     },
     {
         title: 'What\'s new?',
@@ -63,7 +68,8 @@ const FeatureList: FeatureItem[] = [
                 Discover the new features of BigBlueButton in the latest version 2.5.
             </>
         ),
-        actionText: "Discover"
+        actionText: "Discover",
+        docId: "/new-features"
     },
     {
         title: 'Testing Guide',
@@ -73,11 +79,12 @@ const FeatureList: FeatureItem[] = [
                 Interested into manual and automated testing BigBlueButton. Discover how.
             </>
         ),
-        actionText: "Testing the product"
+        actionText: "Testing the product",
+        docId: "/release-testing"
     },
 ];
 
-function Feature({title, Svg, description, actionText}: FeatureItem) {
+function Feature({title, Svg, description, actionText, docId}: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
             <div className="text--center">
@@ -87,8 +94,7 @@ function Feature({title, Svg, description, actionText}: FeatureItem) {
                 <h3>{title}</h3>
                 <p className="home--feature--description" style={{height: '100px'}}>{description}</p>
                 <Link
-                    className="button button--doc-section button--lg"
-                    to="/docs/intro">
+                    className="button button--doc-section button--lg" to={docId}>
                     {actionText}
                 </Link>
             </div>

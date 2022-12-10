@@ -1,8 +1,14 @@
 ---
-layout: page
-title: 'Localization'
-category: dev
-date: 2015-04-05 10:33:37
+id: localization
+slug: /development/localization
+title: BigBlueButton Localization
+sidebar_position: 5
+description: BigBlueButton Localization
+keywords:
+- i18n
+- localization
+- translation
+- transifex
 ---
 
 # Localizing BigBlueButton

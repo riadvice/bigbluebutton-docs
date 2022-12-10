@@ -1,8 +1,12 @@
 ---
-layout: page
-title: 'FAQ'
-category: support
-date: 2015-04-05 10:42:36
+id: faq
+slug: /development/faq
+title: BigBlueButton Development FAQs
+sidebar_position: 8
+description: BigBlueButton BigBlueButton Development FAQs
+keywords:
+- development
+- faq
 ---
 
 # Welcome

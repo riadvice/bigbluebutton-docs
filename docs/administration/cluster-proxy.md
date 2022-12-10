@@ -1,8 +1,12 @@
 ---
-layout: page
-title: 'Cluster Proxy Setup'
-category: admin
-date: 2022-01-27 00:42:00
+id: cluster-proxy
+slug: /administration/cluster-proxy
+title: BigBlueButton Cluster Proxy  Configuration
+sidebar_position: 8
+description: BigBlueButton Cluster Proxy Configuration
+keywords:
+- cluster
+- proxy
 ---
 
 # Motivation

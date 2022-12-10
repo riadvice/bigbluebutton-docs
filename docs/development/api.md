@@ -1,8 +1,11 @@
 ---
-layout: page
-title: 'API'
-category: dev
-date: 2015-04-05 10:28:17
+id: api
+slug: /development/api
+title: BigBlueButton API Reference
+sidebar_position: 3
+description: BigBlueButton API Reference
+keywords:
+- api
 ---
 
 <!---

@@ -1,11 +1,11 @@
 ---
-layout: page
-title: 'LTI'
-category: admin
-redirect_from:
-  - /install/lti.html
-date: 2015-04-05 10:40:30
-order: 11
+id: lti
+slug: /administration/lti
+title: BigBlueButton LTI
+sidebar_position: 9
+description: BigBlueButton LTI
+keywords:
+- lti
 ---
 
 # Overview

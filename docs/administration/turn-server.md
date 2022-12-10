@@ -1,12 +1,15 @@
 ---
-layout: page
-title: 'Configure TURN'
-category: admin
-date: 2019-02-14 22:13:42
-order: 4
+id: turn-server
+slug: /administration/turn-server
+title: BigBlueButton Turn Server Configuration
+sidebar_position: 7
+description: BigBlueButton Turn Server Configuration
+keywords:
+- coturn
+- turn server
 ---
 
-This document covers how to setup a TURN server for BigBlueButton to allow users behind restrictive firewalls to connect.
+This document covers how to set up a TURN server for BigBlueButton to allow users behind restrictive firewalls to connect.
 
 You can also use [bbb-install.sh](https://github.com/bigbluebutton/bbb-install#install-a-turn-server) to automate the steps in this document.
 
@@ -43,7 +46,7 @@ Note: coturn will not automatically start until configuration is applied (see be
 
 ## Required DNS Entry
 
-You need to setup a fully qualified domain name that resolves to the external IP address of your turn server. You'll use this domain name to generate a TLS certificate using Let's Encrypt (next section).
+You need to set up a fully qualified domain name that resolves to the external IP address of your turn server. You'll use this domain name to generate a TLS certificate using Let's Encrypt (next section).
 
 ## Required Ports
 

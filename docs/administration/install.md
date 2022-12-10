@@ -1,9 +1,11 @@
 ---
-layout: page
-title: 'Install'
-category: 2.6
-date: 2021-09-22 22:13:42
-order: 2
+id: install
+slug: /administration/install
+title: Install BigBlueButton
+sidebar_position: 1
+description: Install BigBlueButton
+keywords:
+- install
 ---
 
 <!-- TODO The latest version of [BigBlueButton](/) is 2.6 (referred hereafter as simply BigBlueButton). -->

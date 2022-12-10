@@ -1,9 +1,11 @@
 ---
-layout: page
-title: 'Configuration Files'
-category: admin
-date: 2015-04-04 22:27:43
-redirect_from: '/install/configuration-files'
+id: configuration-files
+slug: /administration/configuration-files
+title: BigBlueButton Configuration Files
+sidebar_position: 2
+description: BigBlueButton Configuration Files
+keywords:
+- configuration-files
 ---
 
 # Overview

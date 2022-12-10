@@ -1,9 +1,12 @@
 ---
-layout: page
-title: 'Development'
-category: 2.6
-date: 2021-09-22 11:42:28
-order: 3
+id: guide
+slug: /development/guide
+title: BigBlueButton Development Guide
+sidebar_position: 1
+description: BigBlueButton Development Guide
+keywords:
+- development
+- developer
 ---
 
 Welcome to the BigBlueButton Developer's Guide for BigBlueButton 2.6.

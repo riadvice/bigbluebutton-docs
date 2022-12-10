@@ -1,8 +1,12 @@
 ---
-layout: page
-title: 'Recording'
-category: dev
-date: 2015-04-04 22:47:38
+id: recording
+slug: /development/recording
+title: BigBlueButton Recording
+sidebar_position: 4
+description: BigBlueButton Recording
+keywords:
+- recording
+- rap
 ---
 
 This document assumes the reader understands the current [BigBlueButton architecture](/2.4/architecture.html).

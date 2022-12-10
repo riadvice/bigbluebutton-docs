@@ -1,9 +1,13 @@
 ---
-layout: page
-title: 'Troubleshooting'
-category: support
-date: 2019-02-14 22:13:42
-order: 10
+id: teaching-troubleshoot
+slug: /teaching/troubleshoot
+title: Teacher & Student Troubleshooting Guide
+sidebar_position: 2
+description: Troubleshooting Guide for Student & Teacher
+keywords:
+- troubleshoot
+- teacher
+- student
 ---
 
 If you encountered any problems with the installation of BigBlueButton, this section covers how to resolve many of the common issues.

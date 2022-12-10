@@ -1,10 +1,12 @@
 ---
-
-layout: page
-title: "Admin"
-category: greenlight
-date: 2019-04-16 16:25:25
-
+id: admin
+slug: /greenlight/admin
+title: Greenlight Administration
+sidebar_position: 4
+description: Greenlight Administration
+keywords:
+- greenlight
+- administration
 ---
 
 # Creating Accounts

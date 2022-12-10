@@ -1,8 +1,12 @@
 ---
-layout: page
-title: "Install"
-category: greenlight
-date: 2019-04-16 16:28:25
+id: install
+slug: /greenlight/install
+title: Greenlight Installation
+sidebar_position: 2
+description: Greenlight Installation
+keywords:
+- greenlight
+- install
 ---
 
 # Installing on a BigBlueButton Server

@@ -1,9 +1,11 @@
 ---
-layout: page
-title: "bbb-conf"
-category: admin
-date: 2015-04-05 16:01:50
-redirect_from: "/install/bbb-conf.html"
+id: bbb-conf
+slug: /administration/bbb-conf
+title: BigBlueButton bbb-conf tool
+sidebar_position: 3
+description: BigBlueButton bbb-conf tool
+keywords:
+- bbb-conf
 ---
 
 # Introduction

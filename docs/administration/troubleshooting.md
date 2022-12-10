@@ -1,9 +1,11 @@
 ---
-layout: page
-title: 'Troubleshooting'
-category: support
-date: 2019-02-14 22:13:42
-order: 10
+id: troubleshooting
+slug: /administration/troubleshooting
+title: BigBlueButton Administration Troubleshooting Guide
+sidebar_position: 11
+description: BigBlueButton Administration Troubleshooting Guide
+keywords:
+- troubleshooting
 ---
 
 If you encountered any problems with the installation of BigBlueButton, this section covers how to resolve many of the common issues.

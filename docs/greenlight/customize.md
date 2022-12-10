@@ -1,8 +1,12 @@
 ---
-layout: page
-title: "Customize"
-category: greenlight
-date: 2019-04-16 16:27:25
+id: customize
+slug: /greenlight/customize
+title: Greenlight Customizing
+sidebar_position: 5
+description: Greenlight Customizing
+keywords:
+- greenlight
+- cutomize
 ---
 
 # Customizing Greenlight

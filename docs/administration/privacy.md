@@ -1,10 +1,11 @@
 ---
-layout: page
-title: 'Privacy'
-category: admin
-redirect_from:
-  - /install/privacy.html
-date: 2020-05-09 00:42:00
+id: privacy
+slug: /administration/privacy
+title: BigBlueButton Privacy
+sidebar_position: 10
+description: BigBlueButton Privacy
+keywords:
+- privacy
 ---
 
 # Overview

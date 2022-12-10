@@ -1,8 +1,12 @@
 ---
-layout: page
-title: 'FAQ'
-category: support
-date: 2015-04-05 10:42:36
+id: faq
+slug: /administration/faq
+title: BigBlueButton Administration FAQs
+sidebar_position: 12
+description: BigBlueButton Administration FAQs
+keywords:
+- administration
+- faq
 ---
 
 # Welcome

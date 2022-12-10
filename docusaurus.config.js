@@ -60,9 +60,9 @@ const config = {
                 },
                 items: [
                     {to: '/teaching', label: 'Teaching', position: 'left'},
-                    {to: '/developer', label: 'Development', position: 'left'},
-                    {to: '/administrator', label: 'Administration', position: 'left'},
-                    {to: '/greenlight', label: 'Greenlight', position: 'left'},
+                    {to: '/development/guide', label: 'Development', position: 'left'},
+                    {to: '/administration/install', label: 'Administration', position: 'left'},
+                    {to: '/greenlight/overview', label: 'Greenlight', position: 'left'},
                     {to: '/new-features', label: 'New Features', position: 'left'},
                     {
                         href: 'https://github.com/bigbluebutton/bigbluebutton/docs',
