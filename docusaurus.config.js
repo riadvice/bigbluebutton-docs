@@ -33,14 +33,8 @@ const config = {
             /** @type {import('@docusaurus/preset-classic').Options} */
             ({
                 docs: {
+                    routeBasePath: "/",
                     sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                },
-                blog: {
-                    showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
@@ -53,6 +47,8 @@ const config = {
         ],
     ],
 
+    plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -63,15 +59,13 @@ const config = {
                     src: 'img/logo.svg',
                 },
                 items: [
+                    {to: '/teaching', label: 'Teaching', position: 'left'},
+                    {to: '/developer', label: 'Development', position: 'left'},
+                    {to: '/administrator', label: 'Administration', position: 'left'},
+                    {to: '/greenlight', label: 'Greenlight', position: 'left'},
+                    {to: '/new-features', label: 'New Features', position: 'left'},
                     {
-                        type: 'doc',
-                        docId: 'intro',
-                        position: 'left',
-                        label: 'Tutorial',
-                    },
-                    {to: '/blog', label: 'Blog', position: 'left'},
-                    {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/bigbluebutton/bigbluebutton/docs',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -81,15 +75,15 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'Support',
+                        title: 'BigBlueButton',
                         items: [
                             {
-                                label: 'Knowledge Base',
-                                to: 'https://support.bigbluebutton.org/',
+                                label: 'Release notes',
+                                href: '/release-notes',
                             },
                             {
-                                label: 'Tutorial Videos',
-                                to: 'https://bigbluebutton.org/teachers/tutorials/',
+                                label: 'Github',
+                                href: 'https://github.com/bigbluebutton',
                             },
                         ],
                     },
@@ -111,11 +105,15 @@ const config = {
                         ],
                     },
                     {
-                        title: 'Contribute',
+                        title: 'Support',
                         items: [
                             {
-                                label: 'Github',
-                                href: 'https://github.com/bigbluebutton',
+                                label: 'Knowledge Base',
+                                to: 'https://support.bigbluebutton.org/',
+                            },
+                            {
+                                label: 'Tutorial Videos',
+                                to: 'https://bigbluebutton.org/teachers/tutorials/',
                             },
                         ],
                     },

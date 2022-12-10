@@ -111,6 +111,11 @@ html {
     color: white;
 }
 
+.button.button--doc-section {
+    background-color: var(--ifm-color-primary-lightest);
+    color: white;
+}
+
 .footer__links {
     margin-bottom: 3rem;
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
     title: string;
     Svg: React.ComponentType<React.ComponentProps<'svg'>>;
     description: JSX.Element;
+    actionText: string;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -14,64 +16,68 @@ const FeatureList: FeatureItem[] = [
         Svg: require('@site/static/img/icon_teach.svg').default,
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily installed and
-                used to get your website up and running quickly.
+                New to BigBlueButton?
+                The complete user-guide with all the available features.
             </>
         ),
+        actionText: "Teaching Experience"
     },
     {
         title: 'I am a developer',
         Svg: require('@site/static/img/icon_developer.svg').default,
         description: (
             <>
-                Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-                ahead and move your docs into the <code>docs</code> directory.
+                Learn everything about extending BigBlueButton
+                and creating new integrations using the API.
             </>
         ),
+        actionText: "Show me how"
     },
     {
         title: 'I am an administrator',
         Svg: require('@site/static/img/icon_administrator.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                Technical specifications, step-by-step guide and all you need to
+                get BigBlueButton up an running.
             </>
         ),
+        actionText: "Server management"
     },
     {
         title: 'Greenlight',
         Svg: require('@site/static/img/icon_greenlight.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                Full guide for installing and using Greenlight,
+                the simple room manager tailored for BigBlueButton.
             </>
         ),
+        actionText: "Greenlight guide"
     },
     {
         title: 'What\'s new?',
         Svg: require('@site/static/img/icon_new.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                Discover the new features of BigBlueButton in the latest version 2.5.
             </>
         ),
+        actionText: "Discover"
     },
     {
         title: 'Testing Guide',
         Svg: require('@site/static/img/icon_testing.svg').default,
         description: (
             <>
-                Extend or customize your website layout by reusing React. Docusaurus can
-                be extended while reusing the same header and footer.
+                Interested into manual and automated testing BigBlueButton. Discover how.
             </>
         ),
+        actionText: "Testing the product"
     },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, Svg, description, actionText}: FeatureItem) {
     return (
         <div className={clsx('col col--4')}>
             <div className="text--center">
@@ -79,7 +85,12 @@ function Feature({title, Svg, description}: FeatureItem) {
             </div>
             <div className="text--center padding-horiz--md">
                 <h3>{title}</h3>
-                <p>{description}</p>
+                <p className="home--feature--description" style={{height: '100px'}}>{description}</p>
+                <Link
+                    className="button button--doc-section button--lg"
+                    to="/docs/intro">
+                    {actionText}
+                </Link>
             </div>
         </div>
     );
